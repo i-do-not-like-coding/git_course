@@ -3,7 +3,7 @@ def my_fun():
     for i in my_list:
         if i % 2 == 0:
             yield i
-            print("hhh")
+            print()
 
 
 for j in my_fun():
